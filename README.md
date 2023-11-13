@@ -102,6 +102,52 @@ This essential component defines paths and their corresponding elements, making 
 An API of Ice And Fire is the world's greatest source for quantified and structured data from the universe of Ice and Fire (and the HBO series Game of Thrones). This API provides access to data about all the Books, Characters and Houses in an easy to use JSON format.
 The API URL is https://anapioficeandfire.com/ 
 
+# Smoke Tests
+
+These smoke tests verify that the basic functionality of each component is working. To run the tests, simply navigate to the component folder and run npm test.
+
+## Navigation
+
+This test verifies that the Navigation component renders without crashing and that it contains the HOME, CHARACTERS, and HOUSES links.
+
+## Character
+
+This test verifies that the Character component renders without crashing and that it contains the Walder character.
+
+## Characters
+
+This test verifies that the Characters component renders without crashing and that it contains the Featured Characters heading.
+
+## Home
+
+This test verifies that the Home component renders without crashing and that it contains the Background text.
+
+## Houses
+
+This test verifies that the Houses component renders without crashing and that it contains the Houses heading.
+
+## Expected Output
+
+If all of the smoke tests pass, you should see the following output:
+
+PASS  src/Navigation/Navigation.test.js
+✓ renders without crashing (2ms)
+PASS  src/Character/Character.test.js
+✓ renders without crashing (1ms)
+PASS  src/Characters/Characters.test.js
+✓ renders without crashing (1ms)
+PASS  src/Home/Home.test.js
+✓ renders without crashing (1ms)
+PASS  src/Houses/Houses.test.js
+✓ renders without crashing (1ms)
+
+Test Suites: 5 passed, 5 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        0.07s
+Ran all test suites.
+
+If any of the smoke tests fail, you will see an error message indicating which test failed and what the expected and actual results were.
 
 # Technology Stack
 This website was developed using a specific technology stack to ensure efficient functionality and a seamless user experience. Below, here is the outline of the key components of technology stack:
