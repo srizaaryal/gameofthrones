@@ -70,7 +70,6 @@ With the extensive number of characters and houses in the Game of Thrones univer
 
 
 # Standard User Flow
-This section will walk you through the typical steps a user would take when navigating your Game of Thrones website:
 
 Initial Landing on the Home Page
 Users start by landing on the website's Home Page. Here, they can read about the background and context of the Game of Thrones series.
